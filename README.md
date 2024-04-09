@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Логика расположена в `lib/logic`
 
-Things you may want to cover:
+Тест только один, на основной метод класса `Logic::Api::RemoteUpdate`.<br> Запуск `rspec -e "#execute"`
 
-* Ruby version
+Внутри класса `Logic::Api::RemoteUpdate` есть два приватных метода-вычислителя, нужны для тестов и для сокращения количества операций при их повторных вызовах.
 
-* System dependencies
+### Модели:
+`Student`<br>
+`Project`<br>
+`ProjectsStudent`<br>
+У последней дурацкое название, лучшее пришло в голову в процессе работы, переделывать не стал уже. Лучшим видится `StudentAssigment`.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

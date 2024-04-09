@@ -1,5 +1,5 @@
 
-# Лучше было бы назвать StudentAssigments, но мысль пришла поздно, не стал переделывать.
+# Лучше было бы назвать StudentAssigment, но мысль пришла поздно, не стал переделывать.
 class ProjectsStudent < ApplicationRecord
 
   belongs_to :student
